@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-<body>
-  {{ content }}
+<body style="background: black; color: white">
+  <section id="intro">
+    <h1>{{ page.headline | smartify }}</h1>
+    <a href="#contact">Get in touch</a>
+  </section>
+  <section id="clients">
+    <h2>{{ page.clients_title | smartify }}</h2>
+    {% for client in page.clients %}
+      {% if client.logo_image %}
+        <img src="{{ client.logo_image }}" alt="{{ client.name }}">
+      {% endif %}
+      {{ client.text | markdownify }}
+    {% endfor %}
+  </section>
+  <section id="clients">
+    <h2>{{ page.services_title | smartify }}</h2>
+    {% for service in page.services %}
+      {% if service.icon_image %}
+        <img src="{{ service.icon_image }}">
+      {% endif %}
+      <h3>{{ service.name | smartify }}</h3>
+      {{ service.text | markdownify }}
+    {% endfor %}
+  </section>
+  <section id="about">
+    <h2>{{ page.about_us.title | smartify }}</h2>
+    {% if page.about_us.image %}
+      <img src="{{ page.about_us.image }}">
+    {% endif %}
+    {{ page.about_us.text | markdownify }}
+  </section>
 </body>
 </html>
