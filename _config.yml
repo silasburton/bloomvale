@@ -22,10 +22,10 @@ defaults:
     layout: page
 permalink: pretty
 exclude:
-  - CNAME
-  - gulpfile.js
-  - node_modules
-  - npm-debug.log
-  - package.json
-  - README.md
-  - yarn.lock
+- CNAME
+- gulpfile.js
+- node_modules
+- npm-debug.log
+- package.json
+- README.md
+- yarn.lock

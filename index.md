@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Bloomvale
+layout: default
 ---
 
 bloomvale
