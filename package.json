@@ -1,0 +1,15 @@
+{
+  "name": "bloomvale",
+  "version": "1.0.0",
+  "description": "bloomvale site",
+  "main": "/",
+  "repository": "git@github.com:silasburton/bloomvale.git",
+  "author": "silasburton <silas.burton@gmail.com>",
+  "license": "none",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "gulp-watch": "^4.3.11"
+  }
+}
