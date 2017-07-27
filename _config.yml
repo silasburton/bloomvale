@@ -20,6 +20,11 @@ defaults:
     type: pages
   values:
     layout: page
+sidebar_sections:
+- title: 
+  link:
+  - link_title: 
+    link_href: 
 permalink: pretty
 exclude:
 - CNAME
