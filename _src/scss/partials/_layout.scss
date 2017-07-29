@@ -7,9 +7,13 @@ body {
 }
 
 .site-wrap {
-  max-width: 1152px;
   margin: 0 auto;
   position: relative;
+  max-width: 480px;
+  
+  @media screen and (min-width: 768px) {
+    max-width: 1152px;
+  }
 }
 
 .site-content {
