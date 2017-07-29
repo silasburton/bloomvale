@@ -10,8 +10,13 @@
 }
 
 .site-header {
-  position: fixed;
-  top: 100px;
+  position: absolute;
+  top: 36vh;
+
+  &.fixed {
+    position: fixed;
+    top: 64px;
+  }
 }
 
 .site-section {
@@ -20,12 +25,18 @@
 
 .site-intro {
   height: 100vh;
-  padding-top: 30vh;
+  padding-top: 36vh;
 }
 
 .site-footer {
   position: fixed;
   bottom: 32px;
+  opacity: 0;
+  transition: 0.3s opacity;
+
+  &.fixed {
+    opacity: 1;
+  }
 }
 
 .site-footer-section {
