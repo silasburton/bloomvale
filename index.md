@@ -25,7 +25,7 @@ clients:
     content and advertising delivery.
 services_title: Our services
 services:
-- icon_image: 
+- icon_image: "/uploads/icon_strategy.svg"
   name: Strategy
   text: |-
     * Digital strategies
