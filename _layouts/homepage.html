@@ -32,6 +32,19 @@
     {% endif %}
     {{ page.about_us.text | markdownify }}
   </section>
+  <section id="contact">
+    <form 
+      action="https://formspree.io/{{ site.contact_form_email }}"
+      method="POST" 
+      data-js-contactForm
+      data-emailAddress="{{ site.contact_form_email }}"
+    >
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
+</form>
+  </section>
   {% include scripts.html %}
 </body>
 </html>
