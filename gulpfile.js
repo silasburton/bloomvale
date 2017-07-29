@@ -26,7 +26,7 @@ gulp.task('browserSync', function() {
 })
 
 gulp.task('sass', function () {
-  return gulp.src('./_src/scss/**/*.scss')
+  return gulp.src('./_src/scss/style.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest('./css'))
@@ -49,10 +49,14 @@ gulp.task('versionJs', shell.task([
 ]))
 
 gulp.task('watch', function () {
-  gulp.watch('./_src/scss/**/*.scss', ['sass'])
-  gulp.watch('./_src/js/**/*.js', ['scripts'])
+  watch('./_src/scss/**/*.scss', function() {
+    gulp.start('sass')
+  })
+  watch('./_src/js/**/*.js', function() {
+    gulp.start('scripts')
+  })
   gulp.watch('./css/style.css', ['versionCSS'])
-  gulp.watch('./_site/js/scripts.js', ['versionJs'])
+  gulp.watch('./js/scripts.js', ['versionJs'])
 })
 
 gulp.task('default', ['jekyll', 'browserSync', 'watch'])
