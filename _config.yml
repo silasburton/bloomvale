@@ -20,16 +20,24 @@ defaults:
     type: pages
   values:
     layout: page
-<<<<<<< HEAD
-contact_form_email: 'silas.burton@gmail.com'
-=======
 sidebar_sections:
-- title: 
+- title: Contact
   link:
-  - link_title: 
+  - link_title: hello@bloomvale.com
+    link_href: mailto:hello@bloomvale.com
+  - link_title: 917.405.5438
+    link_href: 
+- title: New York
+  link:
+  - link_title: 419 Park Avenue South, 2FL
+    link_href: 
+  - link_title: New York, NY 10016
+    link_href: 
+- title: Copyright
+  link:
+  - link_title: "© 2017 Bloomvale"
     link_href: 
 contact_form_email: silas.burton@gmail.com
->>>>>>> eed8cb25e831e12db342a9105d438bc90ab1845a
 permalink: pretty
 exclude:
 - CNAME
