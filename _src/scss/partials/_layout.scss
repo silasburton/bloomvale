@@ -14,11 +14,6 @@
   top: 100px;
 }
 
-.site-footer {
-  position: fixed;
-  bottom: 0;
-}
-
 .site-section {
   margin-bottom: 80px;
 }
@@ -26,6 +21,19 @@
 .site-intro {
   height: 100vh;
   padding-top: 30vh;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 32px;
+}
+
+.site-footer-section {
+  margin-top: 32px;
+
+  a {
+    text-decoration: none;
+  }  
 }
 
 .row {
