@@ -58,27 +58,27 @@ layout: default
       data-successMessage="{{ page.contact_success_message }}"
       class="contact-form"
     >
-    <div class="row">    
-      <div class="form-field">
-        <label class="h4" for="form-name">Name</label>
-        <input type="text" name="name" id="form-name" required>
+      <div class="row">    
+        <div class="form-field">
+          <label class="h4" for="form-name">Name</label>
+          <input type="text" name="name" id="form-name" required>
+        </div>
+        <div class="form-field">
+          <label class="h4" for="form-company">Company</label>
+          <input type="text" name="company" id="form-company">
+        </div>
+        <div class="form-field">
+          <label class="h4" for="form-email">Email address</label>
+          <input type="email" name="_replyto" id="form-email" required>
+        </div>
       </div>
-      <div class="form-field">
-        <label class="h4" for="form-company">Company</label>
-        <input type="text" name="company" id="form-company">
-      </div>
-      <div class="form-field">
-        <label class="h4" for="form-email">Email address</label>
-        <input type="email" name="_replyto" id="form-email" required>
-      </div>
-    </div>
       <label class="h4" for="form-message">Your request</label>
       <textarea name="message" id="form-message" required></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-    <div>
-      <input type="submit" value="Send" class="button" data-js-contactFormSubmit>
-    </div>
-    <div class="form-notification" data-js-contactFormNotification></div>
-  </form>
-</section>
+      <input type="text" name="_gotcha" style="display:none" />
+      <div>
+        <input type="submit" value="Send" class="button" data-js-contactFormSubmit>
+      </div>
+      <div class="form-notification" data-js-contactFormNotification></div>
+    </form>
+  </section>
 {% endif %}
