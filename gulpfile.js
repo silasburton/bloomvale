@@ -5,6 +5,7 @@ var gulp = require('gulp')
 var autoprefixer = require('gulp-autoprefixer')
 var browserSync = require('browser-sync').create()
 var include = require('gulp-include')
+var plumber = require('gulp-plumber')
 var sass = require('gulp-sass')
 var shell = require('gulp-shell')
 var uglify = require('gulp-uglify')
@@ -27,6 +28,7 @@ gulp.task('browserSync', function() {
 
 gulp.task('sass', function () {
   return gulp.src('./_src/scss/style.scss')
+    .pipe(plumber())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest('./css'))
@@ -34,8 +36,8 @@ gulp.task('sass', function () {
 
 gulp.task('scripts', function() {
   gulp.src('_src/js/scripts.js')
+    .pipe(plumber())
     .pipe(include())
-      .on('error', console.log)
     .pipe(uglify())
     .pipe(gulp.dest('./js'));
 });
