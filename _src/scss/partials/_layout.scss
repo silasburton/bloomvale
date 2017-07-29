@@ -1,3 +1,57 @@
-* {
-  background: green;
+.site-wrap {
+  max-width: 1152px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.site-content {
+  max-width: 856px;
+  margin-left: 296px;
+}
+
+.site-header {
+  position: fixed;
+  top: 100px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.site-section {
+  margin-bottom: 80px;
+}
+
+.site-intro {
+  height: 100vh;
+  padding-top: 30vh;
+}
+
+.row {
+  display: flex;
+  margin: 0 -16px;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex-basis: calc(33.333% - 32px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 16px 36px;
+}
+
+.client-logo {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 16px;
+}
+
+.about-img {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  flex-basis: calc(33.333% - 32px);
+  margin: 0 16px 24px;
 }

@@ -2,52 +2,81 @@
 layout: default
 ---
 
-<section id="intro">
+<section class="site-intro" id="intro">
   <h1>{{ page.headline | smartify }}</h1>
-  <a href="#contact">Get in touch</a>
+  <a href="#contact" class="button">Get in touch</a>
 </section>
 
-<section id="clients">
+<section class="site-section" id="clients">
   <h2>{{ page.clients_title | smartify }}</h2>
-  {% for client in page.clients %}
-    {% if client.logo_image %}
-      <img src="{{ client.logo_image }}" alt="{{ client.name }}">
-    {% endif %}
-    {{ client.text | markdownify }}
-  {% endfor %}
+  <div class="row">  
+    {% for client in page.clients %}
+      <div class="grid-item">      
+        {% if client.logo_image %}
+          <img src="{{ client.logo_image }}" alt="{{ client.name }}" class="client-logo">
+        {% endif %}
+        {{ client.text | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
 </section>
 
-<section id="clients">
+<section class="site-section" id="clients">
   <h2>{{ page.services_title | smartify }}</h2>
-  {% for service in page.services %}
-    {% if service.icon_image %}
-      <img src="{{ service.icon_image }}">
-    {% endif %}
-    <h3>{{ service.name | smartify }}</h3>
-    {{ service.text | markdownify }}
-  {% endfor %}
+  <div class="row">  
+    {% for service in page.services %}
+      <div class="grid-item">
+        {% if service.icon_image %}
+          <img src="{{ service.icon_image }}">
+        {% endif %}
+        <h3>{{ service.name | smartify }}</h3>
+        {{ service.text | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
 </section>
 
-<section id="about">
+<section class="site-section" id="about">
   <h2>{{ page.about_us.title | smartify }}</h2>
   {% if page.about_us.image %}
-    <img src="{{ page.about_us.image }}">
+    <img src="{{ page.about_us.image }}" class="about-img">
+  {% endif %}
+  {% if page.about_us.headline %}
+    <h3>{{ page.about_us.headline | smartify }}</h3>
   {% endif %}
   {{ page.about_us.text | markdownify }}
 </section>
 
 {% if site.contact_form_email %}
-  <section id="contact">
+  <section class="site-section" id="contact">
+    <h2>{{ page.contact_title | smartify }}</h2>
     <form 
       action="https://formspree.io/{{ site.contact_form_email }}"
       method="POST" 
       data-js-contactForm
       data-emailAddress="{{ site.contact_form_email }}"
+      class="contact-form"
     >
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
+    <div class="row">    
+      <div class="form-field">
+        <label class="h4" for="form-name">Name</label>
+        <input type="text" name="name" id="form-name">
+      </div>
+      <div class="form-field">
+        <label class="h4" for="form-company">Company</label>
+        <input type="text" name="company" id="form-company">
+      </div>
+      <div class="form-field">
+        <label class="h4" for="form-email">Email address</label>
+        <input type="email" name="_replyto" id="form-email">
+      </div>
+    </div>
+      <label class="h4" for="form-message">Your request</label>
+      <textarea name="message" id="form-message"></textarea>
     <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" value="Send">
+    <div>
+      <input type="submit" value="Send" class="button">
+    </div>
   </form>
 </section>
 {% endif %}

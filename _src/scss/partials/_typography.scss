@@ -1,0 +1,45 @@
+h1,
+.h1 {
+  font-size: 42px;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+h2,
+.h2 {
+  font-size: 26px;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+h3,
+.h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+h4,
+.h4 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p,
+li {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #999;
+  margin-bottom: 1em;
+}
+
+li,
+.li {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+}

@@ -4,9 +4,9 @@
       <h4>{{ section.title }}</h4>
       {% for link in section.links %}
         {% if link.href %}
-          <p><a href="{{ link.href }}">{{ link.title }}</a></p>
+          <p class="li"><a href="{{ link.href }}">{{ link.title }}</a></p>
         {% else %}
-          <p>{{ link.title }}</p>
+          <p class="li">{{ link.title }}</p>
         {% endif %}
       {% endfor %}
     </div>

@@ -1,0 +1,29 @@
+label {
+  display: block;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #666;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 13px;
+  color: #fff;
+  font-family: 'nimbus sans', sans-serif;
+
+  &:focus {
+    outline: none;
+    border-color: #fff;
+  }
+}
+
+textarea {
+  resize: none;
+  min-height: 192px;
+  margin-bottom: 32px;
+}
