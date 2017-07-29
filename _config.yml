@@ -20,7 +20,16 @@ defaults:
     type: pages
   values:
     layout: page
+<<<<<<< HEAD
 contact_form_email: 'silas.burton@gmail.com'
+=======
+sidebar_sections:
+- title: 
+  link:
+  - link_title: 
+    link_href: 
+contact_form_email: silas.burton@gmail.com
+>>>>>>> eed8cb25e831e12db342a9105d438bc90ab1845a
 permalink: pretty
 exclude:
 - CNAME
