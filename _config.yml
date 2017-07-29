@@ -23,20 +23,20 @@ defaults:
 footer_sections:
 - title: Contact
   links:
-  - link_title: hello@bloomvale.com
-    link_href: mailto:hello@bloomvale.com
-  - link_title: 917.405.5438
-    link_href: 
+  - title: hello@bloomvale.com
+    href: mailto:hello@bloomvale.com
+  - title: 917.405.5438
+    href: 
 - title: New York
   links:
-  - link_title: 419 Park Avenue South, 2FL
-    link_href: 
-  - link_title: New York, NY 10016
-    link_href: 
+  - title: 419 Park Avenue South, 2FL
+    href: 
+  - title: New York, NY 10016
+    href: 
 - title: Copyright
   links:
-  - link_title: "© 2017 Bloomvale"
-    link_href: 
+  - title: "© 2017 Bloomvale"
+    href: 
 contact_form_email: silas.burton@gmail.com
 permalink: pretty
 exclude:

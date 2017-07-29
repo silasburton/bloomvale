@@ -1,7 +1,14 @@
 <footer class="site-footer">
   {% for section in site.footer_sections %}
     <div class="site-footer-section">
-      {{ section.title }}
+      <h4>{{ section.title }}</h4>
+      {% for link in section.links %}
+        {% if link.href %}
+          <p><a href="{{ link.href }}">{{ link.title }}</a></p>
+        {% else %}
+          <p>{{ link.title }}</p>
+        {% endif %}
+      {% endfor %}
     </div>
   {% endfor %}
 </footer>
