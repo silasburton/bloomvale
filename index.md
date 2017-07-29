@@ -61,7 +61,7 @@ services:
     * Ecommerce
 about_us:
   title: About us
-  image: "uploads/about.jpg"
+  image: uploads/about.jpg
   headline: Over 20 years of experience
   text: |-
     Bloomvale was founded by [Eliot Pierce](https://www.linkedin.com/in/eliotpierce) who has over 20 years of experience working in digital media at large companies such as CNET, The New York Times, and Bloomberg as well as experience working at start-ups like Snap!, The Feedroom, betaworks.
