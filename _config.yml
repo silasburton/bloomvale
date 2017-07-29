@@ -20,7 +20,7 @@ defaults:
     type: pages
   values:
     layout: page
-sidebar_sections:
+footer_sections:
 - title: Contact
   link:
   - link_title: hello@bloomvale.com
