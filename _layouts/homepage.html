@@ -25,7 +25,7 @@ layout: default
   <h2>{{ page.services_title | smartify }}</h2>
   <div class="row">  
     {% for service in page.services %}
-      <div class="grid-item">
+      <div class="grid-item grid-item--small">
         {% if service.icon_image %}
           <img src="{{ service.icon_image }}">
         {% endif %}

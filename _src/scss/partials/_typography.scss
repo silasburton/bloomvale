@@ -1,23 +1,35 @@
 h1,
 .h1 {
-  font-size: 42px;
+  font-size: 28px;
   font-weight: 200;
   line-height: 1.2;
   margin-bottom: 32px;
+
+  @media screen and (min-width: 600px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 42px;
+  }
 }
 
 h2,
 .h2 {
   font-size: 26px;
-  margin-bottom: 32px;
+  margin-bottom: 1.23em;
   font-weight: 700;
 }
 
 h3,
 .h3 {
-  font-size: 22px;
-  margin-bottom: 8px;
+  font-size: 19px;
+  margin-bottom: 0.36em;
   font-weight: 700;
+
+  @media screen and (min-width: 600px) {
+    font-size: 22px;
+  }
 }
 
 h4,
@@ -30,10 +42,14 @@ h4,
 
 p,
 li {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5;
   color: #999;
   margin-bottom: 1em;
+
+  @media screen and (min-width: 600px) {
+    font-size: 17px;
+  }
 }
 
 li,
