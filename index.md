@@ -31,29 +31,29 @@ services:
     * Digital strategies
     * Content strategies
     * Business plans
-- icon_image: 
+- icon_image: "/uploads/icon_product.svg"
   name: Product
   text: |-
     * Product development
     * Audience development
     * Email marketing
-- icon_image: 
+- icon_image: "/uploads/icon_people.svg"
   name: People
   text: |-
     * Talent assessment
     * Organizational structure
     * Hiring & referrals
-- icon_image: 
+- icon_image: "/uploads/icon_partnerships.svg"
   name: Partnerships
   text: |-
     * Strategic partnerships
     * Business development
-- icon_image: 
+- icon_image: "/uploads/icon_operations.svg"
   name: Operations
   text: |-
     * Interim COO / GM / PM
     * Builder / Thought Partner
-- icon_image: 
+- icon_image: "/uploads/icon_revenue.svg"
   name: Revenue
   text: |-
     * Advertising
