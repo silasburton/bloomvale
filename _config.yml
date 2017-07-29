@@ -25,7 +25,7 @@ sidebar_sections:
   link:
   - link_title: 
     link_href: 
-contact_form_email: 'silas.burton@gmail.com'
+contact_form_email: silas.burton@gmail.com
 permalink: pretty
 exclude:
 - CNAME
