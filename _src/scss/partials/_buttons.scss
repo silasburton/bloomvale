@@ -12,4 +12,17 @@
   line-height: 30px;
   border: 0;
   min-width: 192px;
+  cursor: pointer;
+
+  &:active {
+    outline: none;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &.working {
+    opacity: 0.5;
+  }
 }

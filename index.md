@@ -68,6 +68,7 @@ about_us:
 
     We work with a network of designers, developers, and experts in a wide variety of fields such as data science, audience development in order to put together the ideal team for each project.
 contact_title: Contact us
+contact_success_message: "Thanks for your message! We will reply shortly."
 layout: homepage
 ---
 
