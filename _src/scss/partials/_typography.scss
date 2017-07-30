@@ -52,6 +52,10 @@ li {
   letter-spacing: 0.01em;
 }
 
+.grid-item li::before {
+  content: '+ '
+}
+
 li,
 .li {
   margin-bottom: 0;

@@ -4,7 +4,7 @@ var topOut
 
 window.onscroll = function() {
   if (window.innerWidth >= 768) {
-    topOut = (window.innerHeight / 100 * 36) - 48
+    topOut = (window.innerHeight / 100 * 29) - 48
     if ($(window).scrollTop() >= topOut) {
       $siteHeader.addClass('fixed')
       $siteFooter.addClass('fixed')
