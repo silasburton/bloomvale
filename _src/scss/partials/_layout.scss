@@ -60,7 +60,7 @@ body {
 }
 
 .site-footer {
-  @media screen and (min-width: 768px) and (min-height: 500px) {
+  @media screen and (min-width: 768px) and (min-height: 480px) {
     position: fixed;
     bottom: 32px;
     opacity: 0;
@@ -71,7 +71,7 @@ body {
     }
   }
 
-  @media screen and (min-width: 768px) and (max-height: 500px) {
+  @media screen and (min-width: 768px) and (max-height: 479px) {
     margin-left: 296px;
 
     @media screen and (min-width: 1024px) {    
