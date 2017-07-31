@@ -116,7 +116,7 @@ body {
   }
 
   &.grid-item--small {
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 500px) and (max-width: 1023px) {
       flex-basis: calc(50% - 32px);
     }
   }

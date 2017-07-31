@@ -5,20 +5,20 @@
   font-size: 22px;
   font-weight: 700;
   padding: 12px 32px;
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   height: 56px;
   text-decoration: none;
   line-height: 27px;
   border: 0;
   min-width: 192px;
   cursor: pointer;
-  transition: 0.3s all;
+  transition: 0.2s all;
   border: 2px solid #fff;
 
   &:hover {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
   }
 
   &:active {
