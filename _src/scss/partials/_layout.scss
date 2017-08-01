@@ -29,7 +29,7 @@ body {
 
   @media screen and (min-width: 768px) {
     position: absolute;
-    top: 29vh;
+    top: 11px;
 
     &.fixed {
       position: fixed;
@@ -53,9 +53,10 @@ body {
 
   @media screen and (min-width: 768px) {
     height: auto;
-    min-height: 85vh;
+    min-height: 0;
     display: block;
-    padding: calc(29vh - 10px) 0 80px;
+    margin-top: 150px;
+    margin-bottom: 180px;
   }
 }
 
@@ -63,8 +64,6 @@ body {
   @media screen and (min-width: 768px) and (min-height: 480px) {
     position: fixed;
     bottom: 32px;
-    opacity: 0;
-    transition: 0.3s opacity;
 
     &.fixed {
       opacity: 1;
