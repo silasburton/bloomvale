@@ -1,0 +1,41 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.site-intro {
+  animation: fadeIn 1.2s 0.5s;
+  animation-fill-mode: both;
+}
+
+.site-section {
+  animation: fadeIn 1.2s 1.5s;
+  animation-fill-mode: both;
+}
+
+#clients {
+  animation: fadeIn 1.2s 0.85s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+
+.site-footer {
+  animation: fadeIn 1.2s 1.1s;
+  animation-fill-mode: both;
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+.playing {
+  animation-play-state: running;
+  animation-delay: 0s;
+}

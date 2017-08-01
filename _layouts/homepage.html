@@ -21,7 +21,7 @@ layout: default
   </div>
 </section>
 
-<section class="site-section" id="clients">
+<section class="site-section" id="services" data-js-belowFoldSection>
   <h2>{{ page.services_title | smartify }}</h2>
   <div class="row">  
     {% for service in page.services %}
@@ -36,7 +36,7 @@ layout: default
   </div>
 </section>
 
-<section class="site-section" id="about">
+<section class="site-section" id="about" data-js-belowFoldSection>
   <h2>{{ page.about_us.title | smartify }}</h2>
   {% if page.about_us.image %}
     <img src="{{ page.about_us.image }}" class="about-img">
@@ -48,7 +48,7 @@ layout: default
 </section>
 
 {% if site.contact_form_email %}
-  <section class="site-section" id="contact">
+  <section class="site-section" id="contact" data-js-belowFoldSection>
     <h2>{{ page.contact_title | smartify }}</h2>
     <form 
       action="https://formspree.io/{{ site.contact_form_email }}"

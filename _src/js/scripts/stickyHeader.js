@@ -2,7 +2,7 @@ var $siteHeader = $('[data-js-siteHeader]')
 var $siteFooter = $('[data-js-siteFooter]')
 var topOut
 
-window.onscroll = function() {
+function headerScroll() {
   if (window.innerWidth >= 768) {
     topOut = 96
     if ($(window).scrollTop() >= topOut) {

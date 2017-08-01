@@ -44,16 +44,12 @@ body {
 }
 
 .site-intro {
-  height: 100vh;
-  min-height: 550px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  padding-top: 180px;
+  margin-bottom: 80px;
 
   @media screen and (min-width: 768px) {
-    height: auto;
     min-height: 0;
+    height: auto;
     display: block;
     margin-top: 150px;
     margin-bottom: 180px;
