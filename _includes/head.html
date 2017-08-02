@@ -11,6 +11,7 @@
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:url" content="{{ site.site_og_url }}{{ page.url }}" />
+  <meta property="og:description" content="{% if page.meta_descrption %}{{ page.meta_descrption }}{% else %}{{ site.meta_description }}{% endif %}" />
   {% if site.og_image %}
     <meta property="og:image" content="{{ site.site_og_url }}{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}" />
   {% endif %}
