@@ -38,6 +38,9 @@ footer_sections:
   - title: "© 2017 Bloomvale"
     href: 
 contact_form_email: workwithus@bloomvale.com
+meta_desc: We operate at the intersection of strategy, design & technology to develop
+  creative solutions to today’s most challenging problems.
+og_image:
 permalink: pretty
 exclude:
 - CNAME
