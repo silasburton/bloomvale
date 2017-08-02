@@ -2,8 +2,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
+  <head>
+    <meta name="description" content="{% if page.meta_descrption %}{{ page.meta_descrption }}{% else %}{{ site.meta_description }}{% endif %}">
+  </head>
   <link rel="stylesheet" href="/css/style.css?v={{ site.data.hash_css }}">
   <link rel="icon" type="image/png" href="/img/favicon.png?v=2" />
   <script src="https://use.typekit.net/bib7qfd.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ site.site_og_url }}{{ page.url }}" />
+  {% if site.og_image %}
+    <meta property="og:image" content="{{ site.site_og_url }}{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}" />
+  {% endif %}
 </head>
