@@ -32,10 +32,11 @@
 }
 
 .paused {
-  animation-play-state: paused;
+  animation: none;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .playing {
-  animation-play-state: running;
-  animation-delay: 0s;
+  animation: 1.2s fadeIn;
 }
