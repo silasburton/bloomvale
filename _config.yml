@@ -38,10 +38,10 @@ footer_sections:
   - title: "© 2017 Bloomvale"
     href: 
 contact_form_email: workwithus@bloomvale.com
-meta_description: We operate at the intersection of strategy, design & technology to develop
-  creative solutions to today’s most challenging problems.
+meta_description: We operate at the intersection of strategy, design & technology
+  to develop creative solutions to today’s most challenging problems.
 og_image: "/uploads/og-image.png"
-site_og_url: "https://bloomvale.com"
+site_og_url: https://bloomvale.com
 permalink: pretty
 exclude:
 - CNAME
