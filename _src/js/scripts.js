@@ -7,6 +7,6 @@
 //=require scripts/animateSections.js
 
 window.onscroll = function() {
-  headerScroll()
+  // headerScroll()
   animateScroll()
 }

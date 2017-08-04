@@ -16,19 +16,15 @@
 }
 
 .site-section {
-  animation: fadeIn 1.2s 1.75s;
+  animation: fadeIn 1.2s 1s;
   animation-fill-mode: both;
 }
 
-#clients {
-  animation: fadeIn 1.2s 1.3s;
+#clients,
+.site-footer {
+  animation: fadeIn 1.2s 1s;
   animation-fill-mode: both;
   animation-play-state: running;
-}
-
-.site-footer {
-  animation: fadeIn 1.2s 0.85s;
-  animation-fill-mode: both;
 }
 
 .paused {
