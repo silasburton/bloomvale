@@ -13,15 +13,15 @@ clients:
   text: Developed product and content strategies to bring Bitcoin to a broader audience.
 - logo_image: "/uploads/logo_lererhippeau.png"
   name: Lerer Hippeau
-  text: Turned a Pricenomics article on the mattress industry into one of the fastest
+  text: Turned a Priceonomics article on the mattress industry into one of the fastest
     growing consumer startups with over $100mm in revenue in less than 2 years.
 - logo_image: "/uploads/logo_sourcemedia.png"
   name: SourceMedia
-  text: Advised Senior Management team on strategy, and organizational structure in
+  text: Advised Senior Management team on strategy and organizational structure in
     order to accelerate digital transformation.
 - logo_image: "/uploads/logo_time.png"
   name: Time
-  text: Lead product development workshops to develop innovative approach to product,
+  text: Led product development workshops to create an innovative approach to product,
     content and advertising delivery.
 services_title: Our services
 services:
@@ -62,11 +62,10 @@ services:
 about_us:
   title: About us
   image: uploads/about.jpg
-  headline: Over 20 years of experience
   text: |-
-    Bloomvale was founded by [Eliot Pierce](https://www.linkedin.com/in/eliotpierce) who has over 20 years of experience working in digital media at large companies such as CNET, The New York Times, and Bloomberg as well as experience working at start-ups like Snap!, The Feedroom, betaworks.
+    Bloomvale was founded by [Eliot Pierce](https://www.linkedin.com/in/eliotpierce) who has over 20 years of experience working in digital media at large companies such as Bloomberg, CNET and The New York Times, and betaworks, Snap! and The Feedroom.
 
-    We work with a network of designers, developers, and experts in a wide variety of fields such as data science, audience development in order to put together the ideal team for each project.
+    We work with a network of designers, developers, and strategists in a wide variety of fields such as data science and audience development in order to assemble the ideal team for each project.
 contact_title: Contact us
 contact_success_message: Thanks for your message! We will reply shortly.
 layout: homepage
