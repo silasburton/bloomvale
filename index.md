@@ -6,8 +6,8 @@ clients_title: Our clients
 clients:
 - logo_image: "/uploads/logo_bloomberg.png"
   name: Bloomberg
-  text: 'Partnered with two award-winning journalists to bring a high-profile partnership
-    to life by creating a TV show, website in less than 5 months. '
+  text: 'Partnered with Mark Halperin and John Heilemann to build and launch Bloomberg
+    Politics and With All Due Respect TV show in less than 5 months. '
 - logo_image: "/uploads/logo_coindesk.png"
   name: Coindesk
   text: Developed product and content strategies to bring Bitcoin to a broader audience.
