@@ -23,6 +23,10 @@ clients:
   name: Time
   text: Led product development workshops to create an innovative approach to product,
     content and advertising delivery.
+- logo_image: "/uploads/logo_syp.png"
+  name: SYPartners
+  text: Helped empower media companies to become the best versions of themselves,
+    so they can create massive positive impact in business and society.
 services_title: Our services
 services:
 - icon_image: "/uploads/icon_strategy.svg"
