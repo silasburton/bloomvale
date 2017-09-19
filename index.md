@@ -67,6 +67,12 @@ about_us:
   title: About us
   image: uploads/about.jpg
   text: |-
+    Bloomvale works with CEOs and their senior management teams to drive growth and help companies grow in the constantly changing technology and media ecosystem.
+
+    We do this by approaching opportunities arising from new innovations and inventions.
+
+    We believe that both strategies and tactics matter. We are going to deliver an approach, recommend the people and the tactics to get you started, learn quickly, and proceed faster than your competitors.
+
     Bloomvale was founded by [Eliot Pierce](https://www.linkedin.com/in/eliotpierce) who has over 20 years of experience working in digital media at large companies such as Bloomberg, CNET and The New York Times, and betaworks, Snap! and The Feedroom.
 
     We work with a network of designers, developers, and strategists in a wide variety of fields such as data science and audience development in order to assemble the ideal team for each project.
