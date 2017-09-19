@@ -10,7 +10,8 @@ clients:
     Politics and With All Due Respect TV show in less than 5 months. '
 - logo_image: "/uploads/logo_coindesk.png"
   name: Coindesk
-  text: Developed product and content strategies to bring Bitcoin to a broader audience.
+  text: Developed product, content and distribution strategies to bring bitcoin to
+    a broader audience.
 - logo_image: "/uploads/logo_lererhippeau.png"
   name: Lerer Hippeau
   text: Turned a Priceonomics article on the mattress industry into one of the fastest
