@@ -74,7 +74,7 @@ about_us:
 
     We believe that both strategies and tactics matter. We are going to deliver an approach, recommend the people and the tactics to get you started, learn quickly, and proceed faster than your competitors.
 
-    Bloomvale was founded by [Eliot Pierce](https://www.linkedin.com/in/eliotpierce) who has over 20 years of experience working in digital media at large companies such as Bloomberg, CNET and The New York Times, and betaworks, Snap! and The Feedroom.
+    Bloomvale was founded by [Eliot Pierce](https://www.linkedin.com/in/eliotpierce) who has over 20 years of experience working in digital media at large companies such as Bloomberg, CNET and The New York Times as well as with start-ups such as betaworks, the original Snap!, and The Feedroom.
 
     We work with a network of designers, developers, and strategists in a wide variety of fields such as data science and audience development in order to assemble the ideal team for each project.
 contact_title: Contact us
