@@ -20,7 +20,7 @@ clients:
   name: SourceMedia
   text: Advised Senior Management team on strategy and organizational structure in
     order to accelerate digital transformation.
-- logo_image: "/uploads/glg.png"
+- logo_image: "/uploads/glg-490369.png"
   name: GLG
   text: 'Conducted 40 interviews with GLG Council Members to understand their current
     experience and uncover unmet needs. '
