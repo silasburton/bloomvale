@@ -20,10 +20,10 @@ clients:
   name: SourceMedia
   text: Advised Senior Management team on strategy and organizational structure in
     order to accelerate digital transformation.
-- logo_image: "/uploads/logo_time.png"
-  name: Time
-  text: Led product development workshops to create an innovative approach to product,
-    content and advertising delivery.
+- logo_image: "/uploads/glg-social-logo-f01697.jpg"
+  name: GLG
+  text: 'Conducted 40 interviews with GLG Council Members to understand their current
+    experience and uncover unmet needs. '
 - logo_image: "/uploads/logo_syp.png"
   name: SYPartners
   text: Helped empower media companies to become the best versions of themselves,
