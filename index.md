@@ -12,6 +12,10 @@ clients:
   name: Coindesk
   text: Developed product, content and distribution strategies to bring crypto-currency
     to a broader audience.
+- logo_image: "/uploads/glg-490369.png"
+  name: GLG
+  text: 'Conducted 40 interviews with GLG Council Members to understand their current
+    experience and uncover unmet needs. '
 - logo_image: "/uploads/logo_lererhippeau.png"
   name: Lerer Hippeau
   text: Turned a Priceonomics article on the mattress industry into one of the fastest
@@ -20,10 +24,6 @@ clients:
   name: SourceMedia
   text: Advised Senior Management team on strategy and organizational structure in
     order to accelerate digital transformation.
-- logo_image: "/uploads/glg-490369.png"
-  name: GLG
-  text: 'Conducted 40 interviews with GLG Council Members to understand their current
-    experience and uncover unmet needs. '
 - logo_image: "/uploads/logo_syp.png"
   name: SYPartners
   text: Helped empower media companies to become the best versions of themselves,
